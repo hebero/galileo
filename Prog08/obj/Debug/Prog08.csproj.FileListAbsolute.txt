@@ -1,0 +1,6 @@
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog08\bin\Debug\Prog08.exe.config
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog08\bin\Debug\Prog08.exe
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog08\bin\Debug\Prog08.pdb
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog08\obj\Debug\Prog08.csprojResolveAssemblyReference.cache
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog08\obj\Debug\Prog08.exe
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog08\obj\Debug\Prog08.pdb

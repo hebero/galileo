@@ -11,16 +11,19 @@ namespace Prog01
         static void Main(string[] args)
         {
             //Inicio de variables
-            int valor1, valor2, suma;
+            int a, b, suma;
             string sNum1, sNum2;
-            Console.WriteLine("Ingrese el primer valor:");
+            //Pedir valores
+            Console.WriteLine("Ingrese un número entero:");
             sNum1 = Console.ReadLine();
-            Console.WriteLine("Ingrese el segundo valor:");
+            Console.WriteLine("Ingrese otro número entero:");
             sNum2 = Console.ReadLine();
-            valor1 = Convert.ToInt32(sNum1);
-            valor2 = Convert.ToInt32(sNum2);
-            suma = valor1 + valor2;
-            Console.WriteLine("La suma es:" + suma.ToString());
+            //Operaciones 
+            a = Convert.ToInt32(sNum1);
+            b = int.Parse(sNum2);
+            suma = a + b;
+            //Muestra de valores
+            Console.WriteLine("La suma de {0} y {1} es: {2}", a,b,suma);
             Console.ReadLine();
         }
     }

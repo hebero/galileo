@@ -1,0 +1,5 @@
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog04\bin\Debug\Prog04.exe.config
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog04\bin\Debug\Prog04.exe
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog04\bin\Debug\Prog04.pdb
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog04\obj\Debug\Prog04.exe
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog04\obj\Debug\Prog04.pdb

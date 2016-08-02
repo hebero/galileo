@@ -1,1 +1,6 @@
 C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog02\bin\Debug\Prog02.exe.config
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog02\bin\Debug\Prog02.exe
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog02\bin\Debug\Prog02.pdb
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog02\obj\Debug\Prog02.csprojResolveAssemblyReference.cache
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog02\obj\Debug\Prog02.exe
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog02\obj\Debug\Prog02.pdb

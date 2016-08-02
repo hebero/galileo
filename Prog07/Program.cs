@@ -17,20 +17,23 @@ namespace Prog07
             val2 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Ingrese el pimer lado del triangulo: ");
             val3 = Convert.ToInt32(Console.ReadLine());
-            if(val1 == val2 && val3 == val1)
+            if (val1 > 0 && val2 > 0 && val3 > 0)
             {
-                Console.WriteLine("Es un triangulo equilátero.");
-                Console.ReadLine();
-            }
-            else if (val1 == val2 || val2 == val3 || val1 == val3)
-            {
-                Console.WriteLine("Es un triangulo isosceles.");
-                Console.ReadLine();
-            }
-            else
-            {
-                Console.WriteLine("Es un triangulo escaleno.");
-                Console.ReadLine();
+                if (val1 == val2 && val3 == val1)
+                {
+                    Console.WriteLine("Es un triangulo equilátero.");
+                    Console.ReadLine();
+                }
+                else if (val1 == val2 || val2 == val3 || val1 == val3)
+                {
+                    Console.WriteLine("Es un triangulo isosceles.");
+                    Console.ReadLine();
+                }
+                else
+                {
+                    Console.WriteLine("Es un triangulo escaleno.");
+                    Console.ReadLine();
+                }
             }
         }
     }

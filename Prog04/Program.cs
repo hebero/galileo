@@ -19,14 +19,23 @@ namespace Prog04
             Console.WriteLine("Ingrese el tercer valor positivos:");
             val3 = Convert.ToInt32(Console.ReadLine());
             prom = (val1 + val2 + val3) / 3;
-            if (prom >= 60)
+            if (val1 > 0 && val2 > 0 && val3 > 0)
             {
-                Console.WriteLine("Aprobado con un promedio de: " + prom);
-                Console.ReadLine();
+
+                if (prom >= 60)
+                {
+                    Console.WriteLine("Aprobado con un promedio de: " + prom);
+                    Console.ReadLine();
+                }
+                else
+                {
+                    Console.WriteLine("Reprobado con un promedio de: " + prom);
+                    Console.ReadLine();
+                }
             }
             else
             {
-                Console.WriteLine("Reprobado con un promedio de: " + prom);
+                Console.WriteLine("Solo numeros positivos.");
                 Console.ReadLine();
             }
 

@@ -1,0 +1,5 @@
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog08SwitchExample\bin\Release\Prog08SwitchExample.exe.config
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog08SwitchExample\bin\Release\Prog08SwitchExample.exe
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog08SwitchExample\bin\Release\Prog08SwitchExample.pdb
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog08SwitchExample\obj\Release\Prog08SwitchExample.exe
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog08SwitchExample\obj\Release\Prog08SwitchExample.pdb

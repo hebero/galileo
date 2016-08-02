@@ -16,23 +16,30 @@ namespace Prog06
             convert3 = anio % 400;
             convert1 = anio % 4;
             convert2 = convert1 % 100;
-
-            if (convert3 == 0 )
-            {
-                Console.WriteLine("El año " + anio + " fue biciesto");
-                Console.ReadLine();
-            }
-            else{
-
-                if (convert1 == 0 && convert2 == 0)
+            if(anio >= 0)
+            { 
+                if (convert3 == 0)
                 {
                     Console.WriteLine("El año " + anio + " fue biciesto");
                     Console.ReadLine();
                 }
                 else {
-                    Console.WriteLine("El año " + anio + " no fue biciesto");
-                    Console.ReadLine();
+
+                    if (convert1 == 0 && convert2 == 0)
+                    {
+                        Console.WriteLine("El año " + anio + " fue biciesto");
+                        Console.ReadLine();
+                    }
+                    else {
+                        Console.WriteLine("El año " + anio + " no fue biciesto");
+                        Console.ReadLine();
+                    }
                 }
+            }
+            else
+            {
+                Console.WriteLine("Solo valores positivos.");
+                Console.ReadLine();
             }
         }
     }

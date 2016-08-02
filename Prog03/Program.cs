@@ -11,7 +11,7 @@ namespace Prog03
         static void Main(string[] args)
         {
             string Seg;
-            int valSeg, horas, minutos, segundos, residuo;
+            int valSeg, horas, minutos, segundos;
             Console.WriteLine("Ingrese la cantidad de segundos a convertir: ");
             Seg = Console.ReadLine();
             valSeg = Convert.ToInt32(Seg);

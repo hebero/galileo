@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web;
 
 namespace Prog08SwitchExample
 {
@@ -110,6 +111,7 @@ namespace Prog08SwitchExample
                     Console.Write("{0} + ", j);
                 }
                 sumatoria = sumatoria + j; 
+                
             }
             Console.WriteLine(" = {0}", sumatoria);
         }
@@ -159,7 +161,7 @@ namespace Prog08SwitchExample
         static void Main(string[] args)
         {
             //TestSwitch();
-            TestArreglo1();
+            TestFor3();
             Console.ReadLine();
         }
     }

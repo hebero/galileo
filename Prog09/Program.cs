@@ -11,12 +11,17 @@ namespace Prog09
         static void Main(string[] args)
         {
             int horasT; string puesto;
-            double sueldo;
+            double sueldo; bool confirm =false;
             Console.WriteLine("Ingrese la horas trabajadas: ");
-            horasT = Convert.ToInt32(Console.ReadLine());
+            //Utilizando Tryparse
+            confirm = int.TryParse(Console.ReadLine(), out horasT);
+            while (!confirm)
+            {
+                Console.WriteLine("Ingrese la horas trabajadas: ");
+                confirm = int.TryParse(Console.ReadLine(), out horasT);
+            }
             Console.WriteLine("Ingrese el puesto del trabajador: \nD: \tDirector \nG: \tGerente \nS: \tSecretaria \nEV: \tEjecutivo \nSEC: \tSecretaria");
             puesto = Console.ReadLine();
-            
             switch (puesto.ToUpper())
             {
                 case "D":
@@ -49,6 +54,10 @@ namespace Prog09
                     if (sueldo >= 8000)
                     { sueldo = (sueldo - ((sueldo * 0.20))); Console.WriteLine("Su sueldo menos el 20% de ISR es: " + sueldo); Console.Read(); }
                     else { Console.WriteLine("Su sueldo es: " + sueldo); Console.Read(); }
+                    break;
+                default:
+                    Console.WriteLine("El puesto ingresado no existe.");
+                    Console.Read();
                     break;
             }
 

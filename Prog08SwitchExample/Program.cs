@@ -128,10 +128,38 @@ namespace Prog08SwitchExample
                 EsNumero = int.TryParse(sNum, out n);
             }
         }
+        static void TestArreglo1()
+        {
+            //fibonacci
+            int cantidad = 0;
+            Console.WriteLine("Ingrese cantidad de elementos de la serie fibonacci: ");
+            cantidad = int.Parse(Console.ReadLine());
+            //Arreglo
+            long [] ElementosFib;
+            ElementosFib = new long[cantidad];
+            //proceso
+            if (cantidad > 2)
+            {
+                ElementosFib[0] = 0;
+                ElementosFib[1] = 1;
+                //
+                for (int Indice  =2; Indice<cantidad; Indice++)
+                {
+                    ElementosFib[Indice] = ElementosFib[Indice - 1] + ElementosFib[Indice - 2];
+                    
+                }
+                for (int i = 0; i < cantidad; i++)
+                {
+                    Console.WriteLine("{0}", ElementosFib[i]);
+                }
+            }
+
+        }
+
         static void Main(string[] args)
         {
             //TestSwitch();
-            TestWhile1();
+            TestArreglo1();
             Console.ReadLine();
         }
     }

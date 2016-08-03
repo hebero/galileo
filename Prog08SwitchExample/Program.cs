@@ -54,10 +54,85 @@ namespace Prog08SwitchExample
             }
             Console.ReadLine();
         }
+        static void TestFor3()
+        {
+            //Variables
+            int n = 0; string sNum1 = "";
+            Console.WriteLine("Ingrese un numero entero positivo:");
+            sNum1 = Console.ReadLine();
+            n = Convert.ToInt32(sNum1);
+            for (int impar =1; impar <= n; impar += 2)
+            {
+                if ((impar ==n)||(impar == n - 1)){
+                    Console.Write("{0} ", impar);
+                }
+                else
+                {
+                    Console.Write("{0}, ", impar);
+                }
+            }
+
+        }
+        static void TestFor4()
+        {
+            //Variables
+            int n = 0; string sNum1 = "";
+            Console.WriteLine("Ingrese un numero entero positivo:");
+            sNum1 = Console.ReadLine();
+            n = Convert.ToInt32(sNum1);
+            for (int contador = 1 , impar = 1; contador <= n; contador = contador + 1, impar = impar + 2)
+            {
+                if ((impar == n)) //|| (impar == (n - 1)))
+                {
+                    Console.Write("{0}) {1} ", contador, impar);
+                }
+                else
+                {
+                    Console.Write("{0}) {1} ", contador , impar);
+                }
+            }
+        }
+        static void TestFor5()
+        {
+            int n = 0; string sNum1 = "";
+            int sumatoria=0;
+            Console.WriteLine("Ingrese un numero entero positivo:");
+            sNum1 = Console.ReadLine();
+            n = Convert.ToInt32(sNum1);
+            for (int j =1; j<= n; j = j + 1)
+            {
+                if (j ==n )
+                {
+                    Console.Write("{0} ", j);
+                }
+                else
+                {
+                    Console.Write("{0} + ", j);
+                }
+                sumatoria = sumatoria + j; 
+            }
+            Console.WriteLine(" = {0}", sumatoria);
+        }
+        static void TestWhile1()
+        {
+            int n = 0; string sNum = "";
+            bool EsNumero = false;
+            Console.WriteLine("Ingrese un número entero:");
+            sNum = Console.ReadLine();
+            EsNumero = int.TryParse(sNum, out n);
+
+            while (EsNumero == false) // o !EsNumero
+            {
+                Console.WriteLine("Ingrese un número entero:");
+                sNum = Console.ReadLine();
+                EsNumero = int.TryParse(sNum, out n);
+            }
+        }
         static void Main(string[] args)
         {
             //TestSwitch();
-            TestFor2();
+            TestWhile1();
+            Console.ReadLine();
         }
     }
 }

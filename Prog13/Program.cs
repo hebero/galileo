@@ -9,11 +9,12 @@ namespace Prog13
     class Program
     {
         static void Main(string[] args)
-        {
-            int Cantidad, suma = 0; string sCantidad; bool confirm = false;
+        { //Variables
+            int Cantidad; string sCantidad; bool confirm = false;
             Console.WriteLine("Ingrese la cantidad de elementos deseados: ");
             sCantidad = Console.ReadLine();
             confirm = int.TryParse(sCantidad, out Cantidad);
+            //Validación
             while (confirm == false)
             {
                 Console.WriteLine("Ingrese la cantidad de elementos deseados: ");
@@ -22,21 +23,20 @@ namespace Prog13
             }
 
             //proceso 
-
-            for (int contador = 1; contador <= Cantidad; contador = contador + 1)
+            int pross;
+            for (int contador = 1, i = 1; contador <= Cantidad; contador = contador + 1, i = i + 2)
             {
-                if (contador == Cantidad)
+                pross = contador % 2;
+                if (pross != 0)
                 {
-                    Console.Write("{0}. ", contador);
+                    Console.Write("+4/{0}  ", i);
                 }
                 else
                 {
-                    Console.Write("{0} + ", contador);
+                    Console.Write("-4/{0}  ", i);
                 }
-                suma = suma + contador;
 
             }
-            Console.WriteLine("La sumatoria es: " + suma);
             Console.Read();
         }
     }

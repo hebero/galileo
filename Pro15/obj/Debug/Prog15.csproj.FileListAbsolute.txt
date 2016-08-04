@@ -1,0 +1,6 @@
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Pro15\bin\Debug\Pro15.exe.config
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Pro15\bin\Debug\Pro15.exe
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Pro15\bin\Debug\Pro15.pdb
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Pro15\obj\Debug\Pro15.exe
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Pro15\obj\Debug\Pro15.pdb
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Pro15\obj\Debug\Prog15.csprojResolveAssemblyReference.cache

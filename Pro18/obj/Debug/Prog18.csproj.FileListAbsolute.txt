@@ -1,0 +1,6 @@
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Pro18\bin\Debug\Pro18.exe.config
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Pro18\bin\Debug\Pro18.exe
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Pro18\bin\Debug\Pro18.pdb
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Pro18\obj\Debug\Prog18.csprojResolveAssemblyReference.cache
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Pro18\obj\Debug\Pro18.exe
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Pro18\obj\Debug\Pro18.pdb

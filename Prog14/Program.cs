@@ -10,49 +10,22 @@ namespace Prog14
     {
         static void Main(string[] args)
         {
-            //Variables
-            int Cantidad, suma = 0; string sCantidad; bool confirm = false;
-            Console.WriteLine("Ingrese la cantidad de elementos deseados: ");
-            sCantidad = Console.ReadLine();
-            confirm = int.TryParse(sCantidad, out Cantidad);
-            //Validación
-            while (confirm == false)
+            int num, oper; bool conf = false; string snum;
+            Console.WriteLine("Programa de la tabla de multiplicar. \nIngrese un número positivo:");
+            snum = Console.ReadLine();
+            conf = int.TryParse(snum, out num);
+            while (conf == false)
             {
-                Console.WriteLine("Ingrese la cantidad de elementos deseados: ");
-                sCantidad = Console.ReadLine();
-                confirm = int.TryParse(sCantidad, out Cantidad);
+                Console.WriteLine("Programa de la tabla de multiplicar. /n Ingrese un número positivo:");
+                snum = Console.ReadLine();
+                conf = int.TryParse(snum, out num);
             }
-
-            //proceso 
-            int pross;
-            for (int contador = 1, i = 1; contador <= Cantidad; contador = contador + 1, i = i + 2)
+            for(int i = 0; i <= 10; i++)
             {
-                pross = contador % 2;
-                if (pross != 0)
-                {
-                    Console.WriteLine("+4/{0}", i);
-                }
-                else
-                {
-                    Console.WriteLine("-4/{0}", i);
-                }
-
+                oper = num * i;
+                Console.WriteLine("{0}   x   {1} = {2}\n",i ,num, oper );
             }
-            Console.Read();
+            Console.ReadLine();
         }
-            //    if (contador == Cantidad)
-            //    {
-            //        Console.Write("{0}. ", contador);
-            //    }
-            //    else
-            //    {
-            //        Console.Write("{0} + ", contador);
-            //    }
-            //    suma = suma + contador;
-
-            //}
-            //Console.WriteLine("La sumatoria es: " + suma);
-            //Console.Read();
-        //}
     }
 }

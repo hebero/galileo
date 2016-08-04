@@ -3,3 +3,4 @@ C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog14\bin\D
 C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog14\bin\Debug\Prog14.pdb
 C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog14\obj\Debug\Prog14.exe
 C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog14\obj\Debug\Prog14.pdb
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog14\obj\Debug\Prog14.csprojResolveAssemblyReference.cache

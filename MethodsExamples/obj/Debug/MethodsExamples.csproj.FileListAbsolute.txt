@@ -3,3 +3,4 @@ C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\MethodsExamp
 C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\MethodsExamples\bin\Debug\MethodsExamples.pdb
 C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\MethodsExamples\obj\Debug\MethodsExamples.exe
 C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\MethodsExamples\obj\Debug\MethodsExamples.pdb
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\MethodsExamples\obj\Debug\MethodsExamples.csprojResolveAssemblyReference.cache

@@ -9,13 +9,14 @@ namespace Prog13
     class Program
     {
         static void Main(string[] args)
+            /*Laboratorio No.13*/
         { //Variables
-            int Cantidad; string sCantidad; bool confirm = false;
+            int Cantidad=0, pross =0; string sCantidad; bool confirm = false;
             Console.WriteLine("Ingrese la cantidad de elementos deseados: ");
             sCantidad = Console.ReadLine();
             confirm = int.TryParse(sCantidad, out Cantidad);
             //Validación
-            while (confirm == false)
+            while (confirm == false || Cantidad < 0)
             {
                 Console.WriteLine("Ingrese la cantidad de elementos deseados: ");
                 sCantidad = Console.ReadLine();
@@ -23,7 +24,6 @@ namespace Prog13
             }
 
             //proceso 
-            int pross;
             for (int contador = 1, i = 1; contador <= Cantidad; contador = contador + 1, i = i + 2)
             {
                 pross = contador % 2;

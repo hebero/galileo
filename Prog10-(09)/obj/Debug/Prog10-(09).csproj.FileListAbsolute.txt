@@ -3,3 +3,4 @@ C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog10-(09)\
 C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog10-(09)\bin\Debug\Prog10-(09).pdb
 C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog10-(09)\obj\Debug\Prog10-(09).exe
 C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog10-(09)\obj\Debug\Prog10-(09).pdb
+C:\Users\Estudiante\Documents\Visual Studio 2015\Projects\LabProgra\Prog10-(09)\obj\Debug\Prog10-(09).csprojResolveAssemblyReference.cache

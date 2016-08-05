@@ -9,12 +9,15 @@ namespace Prog09
     class Program
     {
         static void Main(string[] args)
-        {
-            int horasT; string puesto;
-            double sueldo; bool confirm =false;
-            Console.WriteLine("Ingrese la horas trabajadas: ");
-            //Utilizando Tryparse
-            confirm = int.TryParse(Console.ReadLine(), out horasT);
+        { 
+            /*Laboratorio No.08*/
+            int horasT = 0; string puesto = "";
+            double sueldo=0; bool confirm =false;
+            try {
+                Console.WriteLine("Laboratorio No.08 \nIngrese la horas trabajadas: ");
+                //Utilizando Tryparse
+                confirm = int.TryParse(Console.ReadLine(), out horasT);
+
             while (!confirm)
             {
                 Console.WriteLine("Ingrese la horas trabajadas: ");
@@ -22,6 +25,12 @@ namespace Prog09
             }
             Console.WriteLine("Ingrese el puesto del trabajador: \nD: \tDirector \nG: \tGerente \nS: \tSecretaria \nEV: \tEjecutivo \nSEC: \tSecretaria");
             puesto = Console.ReadLine();
+        }
+
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error de formato. {0}", ex.Message);
+            }
             switch (puesto.ToUpper())
             {
                 case "D":

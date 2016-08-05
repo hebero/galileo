@@ -10,13 +10,22 @@ namespace Prog06
     {
         static void Main(string[] args)
         {
-            int anio, convert1, convert2, convert3;
-            Console.WriteLine("Ingrese su año de nacimiento: ");
-            anio = Convert.ToInt32(Console.ReadLine());
-            convert3 = anio % 400;
-            convert1 = anio % 4;
-            convert2 = convert1 % 100;
-            if(anio >= 0)
+            /*Laboratorio No.5*/
+            int anio = 0, convert1 = 0, convert2 = 0, convert3 = 0;
+            try
+            {
+                
+                Console.WriteLine("Laboratorio No.05\nIngrese su año de nacimiento: ");
+                anio = Convert.ToInt32(Console.ReadLine());
+                convert3 = anio % 400;
+                convert1 = anio % 4;
+                convert2 = convert1 % 100;
+            }
+            catch(FormatException ex) {
+                Console.WriteLine("Error de formato. {0}", ex.Message);
+            }
+
+            if (anio >= 0)
             { 
                 if (convert3 == 0)
                 {

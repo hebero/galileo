@@ -10,15 +10,22 @@ namespace Prog08
     {
         static void Main(string[] args)
         {
-            int val1, val2, val3, val4;
-            Console.WriteLine("Ingrese el primer dígito");
-            val1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Ingrese el segundo dígito");
-            val2 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Ingrese el tercer dígito");
-            val3 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Ingrese el cuarto dígito");
-            val4 = Convert.ToInt32(Console.ReadLine());
+            /* daniel.santizo71@gmail.com*/
+            /*Laboratorio 07*/
+            int val1 =0, val2 = 0, val3 = 0, val4 = 0;
+            try {
+                Console.WriteLine("Laboratorio No.07\nIngrese el primer dígito");
+                val1 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Ingrese el segundo dígito");
+                val2 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Ingrese el tercer dígito");
+                val3 = Convert.ToInt32(Console.ReadLine());
+                Console.WriteLine("Ingrese el cuarto dígito");
+                val4 = Convert.ToInt32(Console.ReadLine());
+            }
+            catch(FormatException ex){
+                Console.WriteLine("Error de formato. {0}", ex.Message);
+            }
             if (val1 >= 0 && val2 >= 0 && val3 >= 0 && val4 >= 0)
             {
                 if (val1 > val2 && val1 > val3 && val1 > val4)
